@@ -1,4 +1,7 @@
-1)create and run python3 virtualenv  
+1)create and run python3 virtualenv
+
+virtualenv-3.3 --distribute mienv
+
 
 2) Install requirements
 
