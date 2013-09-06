@@ -35,6 +35,8 @@ class FormHandler(RequestHandler):
         self.write(data)
     
     def get_request_data(self):
+        """Creates request data for validate form
+        """
         result = {}
         for key, field in self.rental_fields.items():
             if hasattr(field, 'fields'):
