@@ -1,2 +1,5 @@
 tornado==3.1
 simplejson
+django
+ipython
+MetaEnum
